@@ -3,7 +3,6 @@ package com.gmail.mik.tarnavsky;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
 
 public class Serializate {
     public static void tryToSave(Object o, String path) throws IllegalAccessException, IOException{
@@ -11,7 +10,9 @@ public class Serializate {
         if(!cl.isAnnotationPresent(Save.class)){
             System.out.println("Class is not anotated (Save fail)");
         }
+        String text = "";
         Field[] fields = cl.getDeclaredFields();
+
         for (Field field: fields) {
             if (field.isAnnotationPresent(Save.class)){
                 if (!field.isAccessible()){
@@ -31,15 +32,18 @@ public class Serializate {
                 }else {
                     fieldValue = String.valueOf(field.get(o));
                 }
-                SaveInFile(fieldName,fieldValue,path);
+                text = text + fieldName + "=" + fieldValue + ";";
             }
+        }
+        if (!text.equals("")) {
+            SaveInFile(text, path);
         }
     }
 
-    private static void SaveInFile(String fieldName, String fieldValue, String path) throws IOException {
-        FileWriter fw =new FileWriter(path, true);
+    private static void SaveInFile(String text, String path) throws IOException {
+        FileWriter fw =new FileWriter(path);
         try {
-            fw.write(fieldName +"="+ fieldValue + ";");
+            fw.write(text);
         }
         finally {
             fw.close();

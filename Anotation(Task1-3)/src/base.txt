@@ -1,1 +1,1 @@
-taleLenght=13;name=Felix;weight=10.7;sex=true;taleLenght=13;name=Felix;weight=10.7;sex=true;taleLenght=13;name=Felix;weight=10.7;sex=true;
+taleLenght=13;name=Felix;weight=10.7;sex=true;
