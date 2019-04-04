@@ -7,109 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="671979f3-0b8f-4e75-8b40-ce349d5ba6f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Kiev.PRO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ArtifactId/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ArtifactId/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ArtifactId/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ArtifactId/src/main/java/GroupId/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClient/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClient/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClient/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/.idea/libraries/gson_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/ChatClientTrue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/out/production/ChatClientTrue/META-INF/ChatClientTrue.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/out/production/ChatClientTrue/ua/kiev/prog/GetThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/out/production/ChatClientTrue/ua/kiev/prog/JsonMessages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/out/production/ChatClientTrue/ua/kiev/prog/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/out/production/ChatClientTrue/ua/kiev/prog/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/out/production/ChatClientTrue/ua/kiev/prog/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/out/production/ChatClientTrue/ua/kiev/prog/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/out/production/ChatClientTrue/ua/kiev/prog/UserBaseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/out/production/ChatClientTrue/ua/kiev/prog/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/src/ua/kiev/prog/GetThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/src/ua/kiev/prog/JsonMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/src/ua/kiev/prog/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/src/ua/kiev/prog/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/src/ua/kiev/prog/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/src/ua/kiev/prog/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/src/ua/kiev/prog/UserBaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClientTrue/src/ua/kiev/prog/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ChatServer_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/AddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/AddUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/GetListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/GetUserBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/JsonMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/MessageList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/UserBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/kiev/prog/UserOnlineServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/.idea/artifacts/JavaEE_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/JavaEE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/WEB-INF/classes/ua/kiev/prog/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/out/production/JavaEE/ua/kiev/prog/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/src/ua/kiev/prog/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/count.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/date.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Anotation(Task1-3)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Anotation(Task1-3)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE1/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE1/web/count.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/count.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE1/web/date.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/date.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE1/web/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE1/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE1/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE1/web/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClientTrue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClientTrue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -465,12 +364,27 @@
       <workItem from="1551789725381" duration="11192000" />
       <workItem from="1551822037559" duration="2336000" />
       <workItem from="1551873013916" duration="683000" />
-      <workItem from="1551953385752" duration="1072000" />
+      <workItem from="1551953385752" duration="1740000" />
     </task>
+    <task id="LOCAL-00001" summary="Chat Task Test Commit">
+      <created>1551955963876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551955963876</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ChatServer Task Commit (Test2)">
+      <created>1551956433205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551956433205</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53437000" />
+    <option name="totallyTimeSpent" value="54105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -486,7 +400,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3267974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3267974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,7 +429,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chat Task Test Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat Task Test Commit" />
+    <MESSAGE value="ChatServer Task Commit (Test2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChatServer Task Commit (Test2)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServlet.class">

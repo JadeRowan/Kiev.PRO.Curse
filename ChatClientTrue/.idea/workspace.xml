@@ -2,13 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c559ce6-9eff-4494-b0d3-159f7cded91b" name="Default Changelist" comment="Chat Client Task Commit">
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/count.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/date.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE/web/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCTest/src/main/java/DbProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCTest/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCTest/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCTest/src/test/java/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBS1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBS1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBS1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBS1/src/main/java/ua/kiev/prog/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/JPADishes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/src/main/java/kiev/prog/ua/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/src/main/java/kiev/prog/ua/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPADishes/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/JPAMoney.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/src/main/java/kiev/prog/ua/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/src/main/java/kiev/prog/ua/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/src/main/java/kiev/prog/ua/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/src/main/java/kiev/prog/ua/ExchangeRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/src/main/java/kiev/prog/ua/GetRateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/src/main/java/kiev/prog/ua/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPAMoney/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPATest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPATest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPATest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPATest/src/main/java/prog/kiev/ua/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPATest/src/main/java/prog/kiev/ua/SimpleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPATest/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatServer/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +57,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
+            <state relative-caret-position="17">
               <caret line="19" column="114" selection-start-line="19" selection-start-column="114" selection-end-line="19" selection-end-column="114" />
             </state>
           </provider>
@@ -31,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="850">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,11 +87,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/GetThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="71">
+              <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/UserBaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
+            <state relative-caret-position="34">
               <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1020">
+            <state relative-caret-position="51">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
@@ -123,8 +164,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="365" />
-    <option name="y" value="187" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -135,7 +176,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +198,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,12 +307,14 @@
       <workItem from="1551789687364" duration="11041000" />
       <workItem from="1551823271271" duration="3039000" />
       <workItem from="1551873114673" duration="738000" />
-      <workItem from="1551953444671" duration="1997000" />
+      <workItem from="1551953444671" duration="2039000" />
+      <workItem from="1552580072570" duration="293000" />
+      <workItem from="1553782636272" duration="1578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59031000" />
+    <option name="totallyTimeSpent" value="60944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,8 +327,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20347957" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20953101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,6 +359,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -339,27 +414,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../Documents/Java/JavaProAll/JavaProAll/ChatEE2/gson-2.2.4.jar!/com/google/gson/GsonBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3281">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../Documents/Java/JavaProAll/JavaProAll/ChatEE2/gson-2.2.4.jar!/com/google/gson/Gson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3961">
-          <caret line="278" selection-start-line="278" selection-end-line="278" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../Documents/Java/JavaProAll/JavaProAll/ChatEE2/gson-2.2.4.jar!/com/google/gson/internal/ConstructorConstructor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Documents/Java/JavaProAll/JavaProAll/ChatEE2/gson-2.2.4.jar!/com/google/gson/GsonBuilder.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../../Documents/Java/JavaProAll/JavaProAll/ChatEE2/gson-2.2.4.jar!/com/google/gson/Gson.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../../Documents/Java/JavaProAll/JavaProAll/ChatEE2/gson-2.2.4.jar!/com/google/gson/internal/ConstructorConstructor.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -401,6 +458,23 @@
     <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/prog/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/Main1.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/Main2.java" />
+    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="114" selection-start-line="19" selection-start-column="114" selection-end-line="19" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -408,10 +482,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/GetThread.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/UserBaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -427,35 +504,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
+        <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/UserBaseService.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/GetThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="71">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="19" column="114" selection-start-line="19" selection-start-column="114" selection-end-line="19" selection-end-column="114" />
         </state>
       </provider>
     </entry>
