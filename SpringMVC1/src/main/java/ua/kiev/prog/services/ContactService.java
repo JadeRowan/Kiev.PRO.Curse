@@ -1,18 +1,20 @@
 package ua.kiev.prog.services;
 
 import ua.kiev.prog.model.Contact;
-import ua.kiev.prog.model.ContactGroup;
+import ua.kiev.prog.model.Group;
 
 import java.util.List;
 
 public interface ContactService {
     void addContact(Contact contact);
-    void addGroup(ContactGroup contactGroup);
+    void addGroup(Group group);
     void deleteContact(long[] ids);
-    List<ContactGroup> listGroups();
-    List<Contact> listContacts(ContactGroup contactGroup, int start, int count);
-    List<Contact> listContacts(ContactGroup contactGroup);
+    List<Group> listGroups();
+    List<Contact> listContacts(Group group, int start, int count);
+    List<Contact> listContacts(Group group);
     long count();
-    ContactGroup findGroup(long id);
+    Group findGroup(long id);
     List<Contact> searchContacts(String pattern);
+
+    void deleteGroup(Long id);
 }

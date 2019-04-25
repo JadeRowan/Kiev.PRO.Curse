@@ -5,21 +5,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name="Groups")
-public class ContactGroup {
+@Table(name="TB_Groups")
+public class Group {
     @Id
-    //@GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String name;
 
-    @OneToMany(mappedBy="contactGroup", cascade=CascadeType.ALL)
+    @OneToMany(mappedBy="group", cascade=CascadeType.ALL)
     private List<Contact> contacts = new ArrayList<>();
 
-    public ContactGroup() {}
+    public Group() {}
 
-    public ContactGroup(String name) {
+    public Group(String name) {
         this.name = name;
-        this.id = System.currentTimeMillis();
     }
 
     public String getName() {

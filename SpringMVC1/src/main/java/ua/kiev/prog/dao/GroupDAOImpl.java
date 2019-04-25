@@ -1,7 +1,7 @@
 package ua.kiev.prog.dao;
 
 import org.springframework.stereotype.Repository;
-import ua.kiev.prog.model.ContactGroup;
+import ua.kiev.prog.model.Group;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -14,23 +14,26 @@ public class GroupDAOImpl implements GroupDAO {
     private EntityManager entityManager;
 
     @Override
-    public void add(ContactGroup contactGroup) {
-        entityManager.persist(contactGroup);
+    public void add(Group group) {
+        entityManager.persist(group);
     }
 
     @Override
-    public void delete(ContactGroup contactGroup) {
-        entityManager.remove(contactGroup);
+    public void delete(Long id) {
+        System.out.println("Its Alive!");
+        Group g = entityManager.getReference(Group.class, id);
+        entityManager.remove(g);
+        System.out.println("Success!");
     }
 
     @Override
-    public ContactGroup findOne(long id) {
-        return entityManager.getReference(ContactGroup.class, id);
+    public Group findOne(long id) {
+        return entityManager.getReference(Group.class, id);
     }
 
     @Override
-    public List<ContactGroup> list() {
-        TypedQuery<ContactGroup> query = entityManager.createQuery("SELECT g FROM Group g", ContactGroup.class);
+    public List<Group> list() {
+        TypedQuery<Group> query = entityManager.createQuery("SELECT g FROM Group g", Group.class);
         return query.getResultList();
     }
 }

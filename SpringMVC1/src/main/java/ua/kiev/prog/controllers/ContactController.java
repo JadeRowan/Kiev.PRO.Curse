@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import ua.kiev.prog.model.Contact;
-import ua.kiev.prog.model.ContactGroup;
+import ua.kiev.prog.model.Group;
 import ua.kiev.prog.services.ContactService;
 
 import static ua.kiev.prog.controllers.GroupController.DEFAULT_GROUP_ID;
@@ -30,6 +30,7 @@ public class ContactController {
         long pageCount = (totalCount / ITEMS_PER_PAGE) +
                 ((totalCount % ITEMS_PER_PAGE > 0) ? 1 : 0);
 
+        model.addAttribute("groupId", 0);
         model.addAttribute("groups", contactService.listGroups());
         model.addAttribute("contacts", contactService.listContacts(null, start, ITEMS_PER_PAGE));
         model.addAttribute("pages", pageCount);
@@ -52,6 +53,7 @@ public class ContactController {
 
     @RequestMapping(value = "/contact/delete", method = RequestMethod.POST)
     public ResponseEntity<Void> delete(@RequestParam(value = "toDelete[]", required = false) long[] toDelete) {
+        System.out.println("contact/delete");
         if (toDelete != null && toDelete.length > 0)
             contactService.deleteContact(toDelete);
 
@@ -64,9 +66,9 @@ public class ContactController {
                              @RequestParam String surname,
                              @RequestParam String phone,
                              @RequestParam String email) {
-        ContactGroup contactGroup = (groupId != DEFAULT_GROUP_ID) ? contactService.findGroup(groupId) : null;
+        Group group = (groupId != DEFAULT_GROUP_ID) ? contactService.findGroup(groupId) : null;
 
-        Contact contact = new Contact(contactGroup, name, surname, phone, email);
+        Contact contact = new Contact(group, name, surname, phone, email);
         contactService.addContact(contact);
 
         return "redirect:/";

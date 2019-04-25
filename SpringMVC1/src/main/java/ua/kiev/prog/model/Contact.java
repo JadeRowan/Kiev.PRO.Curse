@@ -3,7 +3,7 @@ package ua.kiev.prog.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name="Contacts")
+@Table(name="TB_Contacts")
 public class Contact {
     @Id
     @GeneratedValue
@@ -11,7 +11,7 @@ public class Contact {
     
     @ManyToOne
     @JoinColumn(name="group_id")
-    private ContactGroup contactGroup;
+    private Group group;
 
     private String name;
     private String surname;
@@ -20,8 +20,8 @@ public class Contact {
 
     public Contact() {}
 
-    public Contact(ContactGroup contactGroup, String name, String surname, String phone, String email) {
-        this.contactGroup = contactGroup;
+    public Contact(Group group, String name, String surname, String phone, String email) {
+        this.group = group;
         this.name = name;
         this.surname = surname;
         this.phone = phone;
@@ -68,11 +68,11 @@ public class Contact {
         this.name = name;
     }
 
-    public ContactGroup getContactGroup() {
-        return contactGroup;
+    public Group getGroup() {
+        return group;
     }
 
-    public void setContactGroup(ContactGroup contactGroup) {
-        this.contactGroup = contactGroup;
+    public void setGroup(Group group) {
+        this.group = group;
     }
 }

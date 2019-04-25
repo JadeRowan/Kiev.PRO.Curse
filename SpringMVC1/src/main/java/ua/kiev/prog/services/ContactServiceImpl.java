@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ua.kiev.prog.model.Contact;
-import ua.kiev.prog.model.ContactGroup;
+import ua.kiev.prog.model.Group;
 import ua.kiev.prog.dao.ContactDAO;
 import ua.kiev.prog.dao.GroupDAO;
 
@@ -23,8 +23,8 @@ public class ContactServiceImpl implements ContactService {
     }
 
     @Transactional
-    public void addGroup(ContactGroup contactGroup) {
-        groupDAO.add(contactGroup);
+    public void addGroup(Group group) {
+        groupDAO.add(group);
     }
 
     @Transactional
@@ -33,18 +33,18 @@ public class ContactServiceImpl implements ContactService {
     }
 
     @Transactional(readOnly=true)
-    public List<ContactGroup> listGroups() {
+    public List<Group> listGroups() {
         return groupDAO.list();
     }
 
     @Transactional(readOnly=true)
-    public List<Contact> listContacts(ContactGroup contactGroup, int start, int count) {
-        return contactDAO.list(contactGroup, start, count);
+    public List<Contact> listContacts(Group group, int start, int count) {
+        return contactDAO.list(group, start, count);
     }
 
     @Transactional(readOnly=true)
-    public List<Contact> listContacts(ContactGroup contactGroup) {
-        return contactDAO.list(contactGroup, 0, 0);
+    public List<Contact> listContacts(Group group) {
+        return contactDAO.list(group, 0, 0);
     }
 
     @Transactional(readOnly = true)
@@ -53,12 +53,18 @@ public class ContactServiceImpl implements ContactService {
     }
 
     @Transactional(readOnly=true)
-    public ContactGroup findGroup(long id) {
+    public Group findGroup(long id) {
         return groupDAO.findOne(id);
     }
 
     @Transactional(readOnly=true)
     public List<Contact> searchContacts(String pattern) {
         return contactDAO.list(pattern);
+    }
+
+    @Transactional
+    public void deleteGroup(Long id) {
+        System.out.println("Success");
+        groupDAO.delete(id);
     }
 }

@@ -8,10 +8,10 @@
     </head>
     <body>
         <div class="container">
-            <form role="form" class="form-horizontal" action="/contactGroup/add" method="post">
-                <div class="form-contactGroup"><h3>New Group</h3></div>
-                <div class="form-contactGroup"><input type="text" class="form-control" name="name" placeholder="Name"></div>
-                <div class="form-contactGroup"><input type="submit" class="btn btn-primary" value="Add"></div>
+            <form role="form" class="form-horizontal" action="/group/add" method="post">
+                <div class="form-group"><h3>New Group</h3></div>
+                <div class="form-group"><input type="text" class="form-control" name="name" placeholder="Name"></div>
+                <div class="form-group"><input type="submit" class="btn btn-primary" value="Add"></div>
             </form>
         </div>
     </body>

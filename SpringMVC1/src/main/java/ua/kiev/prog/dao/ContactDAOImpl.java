@@ -2,7 +2,7 @@ package ua.kiev.prog.dao;
 
 import org.springframework.stereotype.Repository;
 import ua.kiev.prog.model.Contact;
-import ua.kiev.prog.model.ContactGroup;
+import ua.kiev.prog.model.Group;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -29,12 +29,12 @@ public class ContactDAOImpl implements ContactDAO {
     }
 
     @Override
-    public List<Contact> list(ContactGroup contactGroup, int start, int count) {
+    public List<Contact> list(Group group, int start, int count) {
         TypedQuery<Contact> query;
 
-        if (contactGroup != null) {
+        if (group != null) {
             query = entityManager.createQuery("SELECT c FROM Contact c WHERE c.group = :group ORDER BY c.id DESC", Contact.class);
-            query.setParameter("group", contactGroup);
+            query.setParameter("group", group);
         } else {
             query = entityManager.createQuery("SELECT c FROM Contact c ORDER BY c.id DESC", Contact.class);
         }

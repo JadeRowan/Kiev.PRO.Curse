@@ -9,6 +9,7 @@
     </head>
 
     <body>
+
         <div class="container">
            <h3><img height="50" width="55" src="<c:url value="/static/logo.png"/>"/><a href="/">Contacts List</a></h3>
 
@@ -20,18 +21,19 @@
                             <li><button type="button" id="add_contact" class="btn btn-default navbar-btn">Add Contact</button></li>
                             <li><button type="button" id="add_group" class="btn btn-default navbar-btn">Add Group</button></li>
                             <li><button type="button" id="delete_contact" class="btn btn-default navbar-btn">Delete Contact</button></li>
+                            <li><button type="button" id="delete_group" class="btn btn-default navbar-btn">Delete Group</button></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Groups <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="/">Default</a></li>
-                                    <c:forEach items="${groups}" var="contactGroup">
-                                        <li><a href="/contactGroup/${contactGroup.id}">${contactGroup.name}</a></li>
+                                    <c:forEach items="${groups}" var="group">
+                                        <li><a href="/group/${group.id}">${group.name}</a></li>
                                     </c:forEach>
                                 </ul>
                             </li>
                         </ul>
                         <form class="navbar-form navbar-left" role="search" action="/search" method="post">
-                            <div class="form-contactGroup">
+                            <div class="form-group">
                                 <input type="text" class="form-control" name="pattern" placeholder="Search">
                             </div>
                             <button type="submit" class="btn btn-default">Submit</button>
@@ -59,8 +61,8 @@
                         <td>${contact.phone}</td>
                         <td>${contact.email}</td>
                         <c:choose>
-                            <c:when test="${contact.contactGroup ne null}">
-                                <td>${contact.contactGroup.name}</td>
+                            <c:when test="${contact.group ne null}">
+                                <td>${contact.group.name}</td>
                             </c:when>
                             <c:otherwise>
                                 <td>Default</td>
@@ -78,7 +80,6 @@
                 </ul>
             </nav>
         </div>
-
         <script>
             $('.dropdown-toggle').dropdown();
 
@@ -99,6 +100,14 @@
                     window.location.reload();
                 });
             });
+
+            $('#delete_group').click(function(){
+                var groupId = {'groupId' : ${groupId}};
+                $.post("/group/delete", groupId, function(groupId, status){
+                    window.location.reload();
+                });
+            });
         </script>
+
     </body>
 </html>

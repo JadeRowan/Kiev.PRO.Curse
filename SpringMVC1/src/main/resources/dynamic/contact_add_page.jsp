@@ -10,16 +10,16 @@
         <div class="container">
             <form role="form" class="form-horizontal" action="/contact/add" method="post">
                         <h3>New contact</h3>
-                        <select class="selectpicker form-control form-contactGroup" name="contactGroup">
+                        <select class="selectpicker form-control form-group" name="group">
                             <option value="-1">Default</option>
-                            <c:forEach items="${groups}" var="contactGroup">
-                                <option value="${contactGroup.id}">${contactGroup.name}</option>
+                            <c:forEach items="${groups}" var="group">
+                                <option value="${group.id}">${group.name}</option>
                             </c:forEach>
                         </select>
-                        <input class="form-control form-contactGroup" type="text" name="name" placeholder="Name">
-                        <input class="form-control form-contactGroup" type="text" name="surname" placeholder="Short description">
-                        <input class="form-control form-contactGroup" type="text" name="phone" placeholder="Long description">
-                        <input class="form-control form-contactGroup" type="text" name="email" placeholder="Phone">
+                        <input class="form-control form-group" type="text" name="name" placeholder="Name">
+                        <input class="form-control form-group" type="text" name="surname" placeholder="Short description">
+                        <input class="form-control form-group" type="text" name="phone" placeholder="Long description">
+                        <input class="form-control form-group" type="text" name="email" placeholder="Phone">
                     <input type="submit" class="btn btn-primary" value="Add">
             </form>
         </div>
