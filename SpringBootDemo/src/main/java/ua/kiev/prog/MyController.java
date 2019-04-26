@@ -34,6 +34,7 @@ public class MyController {
         model.addAttribute("groups", contactService.findGroups());
         model.addAttribute("contacts", contacts);
         model.addAttribute("allPages", getPageCount());
+        model.addAttribute("groupId", 0);
 
         return "index";
     }
@@ -114,5 +115,14 @@ public class MyController {
     private long getPageCount(Group group) {
         long totalCount = contactService.countByGroup(group);
         return (totalCount / ITEMS_PER_PAGE) + ((totalCount % ITEMS_PER_PAGE > 0) ? 1 : 0);
+    }
+
+    @RequestMapping(value = "group/delete", method = RequestMethod.POST)
+    public ResponseEntity<Void> delete(@RequestParam(value = "groupId", required = true) long id){
+        System.out.println("group/delete" + id);
+        if (id != 0){
+            contactService.deleteGroup(id);
+        }
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

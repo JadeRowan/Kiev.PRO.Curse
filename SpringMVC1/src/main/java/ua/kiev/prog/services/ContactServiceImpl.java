@@ -64,7 +64,6 @@ public class ContactServiceImpl implements ContactService {
 
     @Transactional
     public void deleteGroup(Long id) {
-        System.out.println("Success");
         groupDAO.delete(id);
     }
 }

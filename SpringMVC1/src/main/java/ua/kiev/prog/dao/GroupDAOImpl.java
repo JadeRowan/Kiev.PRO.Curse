@@ -20,10 +20,8 @@ public class GroupDAOImpl implements GroupDAO {
 
     @Override
     public void delete(Long id) {
-        System.out.println("Its Alive!");
         Group g = entityManager.getReference(Group.class, id);
         entityManager.remove(g);
-        System.out.println("Success!");
     }
 
     @Override

@@ -64,4 +64,9 @@ public class ContactService {
     public Group findGroup(long id) {
         return groupRepository.findOne(id);
     }
+
+    @Transactional
+    public void deleteGroup(long id) {
+        groupRepository.delete(id);
+    }
 }

@@ -3,10 +3,10 @@ package ua.kiev.prog;
 import javax.persistence.*;
 
 @Entity
-@Table(name="Contacts")
+@Table(name="TB_Contacts")
 public class Contact {
     @Id
-    @GeneratedValue
+    //    @GeneratedValue
     private long id;
     
     @ManyToOne
@@ -26,6 +26,7 @@ public class Contact {
         this.surname = surname;
         this.phone = phone;
         this.email = email;
+        this.id = System.currentTimeMillis();
     }
 
     public long getId() {

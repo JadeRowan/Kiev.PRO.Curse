@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name="Groups1")
+@Table(name="TB_Groups")
 public class Group {
     @Id
-    @GeneratedValue
+//    @GeneratedValue
     private long id;
     private String name;
 
@@ -19,6 +19,7 @@ public class Group {
 
     public Group(String name) {
         this.name = name;
+        this.id = System.currentTimeMillis();
     }
 
     public String getName() {
