@@ -12,6 +12,7 @@ import ua.kiev.prog.oauth2.loginviagoogle.dto.PageCountDTO;
 import ua.kiev.prog.oauth2.loginviagoogle.dto.ResultDTO;
 import ua.kiev.prog.oauth2.loginviagoogle.dto.TaskDTO;
 import ua.kiev.prog.oauth2.loginviagoogle.services.GeneralService;
+import ua.kiev.prog.oauth2.loginviagoogle.services.MailSender;
 
 import java.util.List;
 import java.util.Map;
@@ -23,6 +24,9 @@ public class MainController {
 
     @Autowired
     private GeneralService generalService;
+
+    @Autowired
+    MailSender mailSender;
 
     @GetMapping("/account")
     public AccountDTO account(OAuth2AuthenticationToken auth) {
@@ -61,6 +65,12 @@ public class MainController {
         generalService.addTask(email, task);
 
         return new ResponseEntity<>(new ResultDTO(), HttpStatus.OK);
+    }
+
+    @GetMapping("/send")
+    public void send(){
+        //Временная почта от temp-mail.org
+        mailSender.send("ronezuxi@greentech5.com", "Some subject", "Hello!");
     }
 
 }
